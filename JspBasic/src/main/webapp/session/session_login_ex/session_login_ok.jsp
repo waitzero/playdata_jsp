@@ -30,6 +30,8 @@
 if(id.equals("abc")&&pw.equals("123")){
 	session.setAttribute("user_id", id);
 	session.setAttribute("user_nick", nick);
+	//30분동안 세션 사용가능
+	
 	response.sendRedirect("session_welcome.jsp");
 }else{
 	response.sendRedirect("session_login.jsp");
