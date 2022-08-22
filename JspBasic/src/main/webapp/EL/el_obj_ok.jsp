@@ -3,7 +3,7 @@
     pageEncoding="UTF-8"%>
     <%
     //이 페이지는 vo가 넘어와 있다
-    /*el태그 쓰면 색략 가능
+    /*el태그 쓰면 략 가능
     //포워드로 넘어온값 확인
     UserVo vo=(UserVo)request.getAttribute("vo");
     String addr = vo.getAddr();
