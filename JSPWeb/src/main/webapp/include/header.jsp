@@ -69,7 +69,7 @@
                         <a href="">BOARD</a>
                     </li>
                     <li>
-                        <a href="">LOGIN</a>
+                        <a href="${pageContext.request.contextPath}/user/user_Login.user">LOGIN</a>
                     </li>
                     <li>
                         <a href="${pageContext.request.contextPath}/user/user_join.user" style="color:red">JOIN</a>

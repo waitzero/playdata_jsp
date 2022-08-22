@@ -62,9 +62,25 @@ public class UserController extends HttpServlet {
 				response.sendRedirect("user_login.jsp");
 			}else {//가입이동
 				//로그인페이지로
-				response.sendRedirect("user_login.jsp");
+//				response.sendRedirect("user_login.jsp");
 			}
 			
+		}else if(command.equals("/user/user_login.jsp")){
+			//로그인 화면
+			request.getRequestDispatcher("user_login.jsp").forward(request, response);
+		}else if(command.equals("/user/login_form.user")) {
+			/*
+			 * 1.서비스 영역의 login메서드를 호출시키고 로그인 작업을 수행
+			 * 2.서비스 영역에서는 di, pw를 받는다
+			 * 3.DAO로그인 메서드를 생성하고 로그인처리를 수행합니다.
+			 * 4.sql=select* from user where id = ? and pw =?
+			 * 
+			 * 결과가 있다면 UserVo의 회원의 정보를 담아서 컨트롤러로 반환을 받으세요.
+			 * 결과가 없다면 null을 가지고 나오면 된다
+			 * 
+			 * 조건에 맞춰서 로그인 성공사에 main화면으로 이동.
+			 * 로그인 실패시에는 다시 login페이지로 리다이렉트.
+			 */
 		}
 	}
 

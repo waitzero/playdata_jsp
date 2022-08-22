@@ -2,21 +2,7 @@
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<head>
-
-	
-	
-<style>
-	.div_center {
-		margin-bottom: 20px;
-		margin-top:20px;
-		padding: 30px 15px;
-
-	}
-</style>
-
-
-</head>
+<%@include file="../include/header.jsp" %>
 <body>
 
 	
@@ -28,18 +14,18 @@
 		
 			<h3>로그인페이지</h3>
 			<hr>
-			<form action="" method="post">
+			<form action="Login_form.user" method="post">
 				<input type="text" name="id" placeholder="아이디"><br><br>
 				<input type="password" name="pw" placeholder="비밀번호"><br><br>
 				<input type="submit" value="로그인" class="btn btn-default">&nbsp;&nbsp;
-				<input type="button" value="회원가입" class="btn btn-default" onclick="">    
+				<input type="button" value="회원가입" class="btn btn-default" onclick="location.href='경로'">    
 			</form>										
 		
 			
 		
 	</div>
 
-
+<%@include file="../include/footer.jsp" %>
 
 
 

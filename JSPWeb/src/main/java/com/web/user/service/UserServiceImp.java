@@ -31,4 +31,10 @@ public class UserServiceImp implements UserService{
 		return 0;
 	}
 
+	@Override
+	public UserVO login(HttpServletRequest request, HttpServletResponse response) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
