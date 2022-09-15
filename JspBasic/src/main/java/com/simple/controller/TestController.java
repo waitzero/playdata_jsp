@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 
-@WebServlet("*.test")//확장자 패턴-.test로 끝나는 모든 요청을 맵핑
+@WebServlet("*.test")//확장자 패턴-.test로 끝나는 모든 요청을 맵핑함다
 public class TestController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
    
