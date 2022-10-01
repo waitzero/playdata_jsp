@@ -78,7 +78,7 @@ public class UserController extends HttpServlet {
 			 * 결과가 있다면 UserVo의 회원의 정보를 담아서 컨트롤러로 반환을 받으세요.
 			 * 결과가 없다면 null을 가지고 나오면 된다
 			 * 
-			 * 조건에 맞춰서 로그인 성공사에 main화면으로 이동
+			 * 조건에 맞춰서 로그인 성공사에 main화면으로 이동.
 			 * 로그인 실패시에는 다시 login페이지로 리다이렉트.
 			 */
 		}
